@@ -60,6 +60,11 @@ public class Empregado {
         }
         return aux;
     }
+    public void imprimir(){
+        System.out.println(" Nome: " +getNome());
+        System.out.println("EndereçoNome:" +getEndereço());
+        System.out.println("Salári:o" + getSalario());
+    }
 
     
 }

@@ -1,6 +1,7 @@
 public class Mensalista extends Empregado{
 
     private String cargo;
+    
 
     public String getCargo() {
         return cargo;
